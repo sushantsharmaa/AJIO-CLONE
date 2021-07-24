@@ -1,0 +1,98 @@
+/* @import url(https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Ashopping_bag); */
+
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.details {
+  /* border: 2px solid red; */
+  width: 35%;
+  text-align: center;
+  position: absolute;
+  left: 60%;
+  top: 100px;
+}
+
+.list {
+  width: 60%;
+  text-align: left;
+  margin: auto;
+}
+
+.details img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+
+.details button {
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+}
+
+/* Slider */
+
+#slider {
+  position: absolute;
+  width: 40%;
+  left: 10%;
+  top: 100px;
+  cursor: zoom-in;
+}
+
+#slider img {
+  width: 100%;
+}
+
+#left{
+    position: absolute;
+    top: 50vh;
+    left: 6%;
+    background: white;
+    border: none;
+}
+
+#right{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    background: white;
+    border: none;
+}
+
+
+ /* Buttons */
+
+#B1{
+background-color:peru ;
+color: white;
+border: none;
+}
+
+#B2{
+  border: 1px solid peru;
+  color: peru;
+  background-color: white;
+}
+
+.brand,.price{
+  color: peru;
+}
+
+
+.product{
+  color: lightslategray;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.foot{
+    margin-top: 130vh;
+}

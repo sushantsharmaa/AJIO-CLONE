@@ -9,6 +9,8 @@
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+
     <title>Ajio.com | Shop Online the Latest Fashion in apparels brands in India | Reliance Ajio.com</title>
 </head>
 
@@ -121,7 +123,7 @@
                     </input>
                 </form>
                 <span class="material-icons icon hanger">
-                    checkroom
+                    checkroomn
                 </span>
                  <a class="cart-icon" href=""><span class="material-icons icon bag">
                     shopping_bag
@@ -129,58 +131,144 @@
                 </a>
             </div>
     </header>
-    <container class="">
-        <div id="main">
-            <div id="top_img">
-                <a href="https://www.linkpicture.com/view.php?img=LPic60f79b0f452e61226639056">
-                    <img src="https://www.linkpicture.com/q/21072021-d-unisex-topcarousel-p1-40to70-2kbrands.jpg"
-                        type="image"></a>
-            </div>
-            <div id="mobi">
-                <a href="https://www.linkpicture.com/view.php?img=LPic60f7a510efaaf384991559">
-                    <img src="https://www.linkpicture.com/q/07072021-D-unisex-alliances-mobikwik.webp" type="image"></a>
-            </div>
 
-            <div id="slider_1"></div>
+    <div class="filter">
+      <div id="top">
+        <h1>Refine By</h1>
+        <button id="up" onclick="contract()">
+          <img
+            src="https://www.linkpicture.com/q/up-arrow_1.png"
+            type="image"
+          />
+        </button>
+        <button id="down" onclick="expand()">
+          <img
+            src="https://www.linkpicture.com/q/down-arrow_2.png"
+            type="image"
+          />
+        </button>
+      </div>
 
-            <div id="thirdRow">
+      <div class="all">
+        <div class="caty-1">
+          <button id="sub1" onclick="addition1()">-</button>
+          <button id="add1" onclick="subtract1()">+</button>
 
-                <div id="experience">
-                    <img src="https://www.linkpicture.com/q/01072021-d-unisex-experienceajio-sectionheader-1.jpg"
-                        type="image"></a>
-                </div>
-                <div class="gridTiles">
-                    <a href="#"><img
-                            src="https://www.linkpicture.com/q/01072021-d-unisex-experienceajio-signup-upto500_2.webp"
-                            type="image" id="one"></a>
-                    <a href="#"> <img
-                            src="https://www.linkpicture.com/q/15072021-d-unisex-experienceajio-firstpurchase-extra15-extra25-extra5onapp_1.webp"
-                            type="image"></a>
-                    type="image
-                    <a href=" #"><img src="https://www.linkpicture.com/q/01072021-d-unisex-referral-upto1500.webp"
-                            type="image"></a>
-                    <a href="#"><img src="https://www.linkpicture.com/q/01072021-d-unisex-relianceone-strip.jpg"
-                            type="image"></a>
-                </div>
-            </div>
+          <h2>Price</h2>
 
-            <div id="slider_2"></div>
+          <div class="check-1">
+            <input type="checkbox" onclick="checkboxNone()" />
+            <label for="">Below Rs.500 </label><br />
 
-            <div id="crazy">
-                <img src="https://www.linkpicture.com/q/crazy.jpg" type="image">
-            </div>
+            <input type="checkbox" id="myCheck" onclick="checkbox()" />
+            <label for="">Rs.500-1000 </label><br />
 
-            <div class="slide">
-                <div id="slider_3"></div>
-                <button id="left" onclick="shiftLeft()"><img src="https://www.linkpicture.com/q/back_2.png"
-                        type="image"></button>
-                <button id="right" onclick="shiftRight()"><img src="https://www.linkpicture.com/q/right-arrow.png"
-                        type="image"></button>
-            </div>
+            <input type="checkbox" id="myCheck2" onclick="checkbox2()" />
+            <label for="">Rs.1001-1500 </label><br />
 
+            <input type="checkbox" id="myCheck3" onchange="checkbox3()" />
+            <label for="">Rs.1501-2000 </label><br />
+          </div>
         </div>
-    </container>
-    <footer>
+
+        <div class="caty-2">
+          <button id="sub2" onclick="addition2()">-</button>
+          <button id="add2" onclick="subtract2()">+</button>
+
+          <h2>Brand</h2>
+
+          <div class="check-2">
+            <input type="checkbox" id="brandCheck10" onclick="brand10()" />
+            <label for="">AMERICAN TOURISTER </label><br />
+
+            <input type="checkbox" onclick="brand2()" />
+            <label for="">PUMA </label><br />
+
+            <input type="checkbox" id="brandCheck1" onclick="brand1()" />
+            <label for="">NIKE </label><br />
+
+            <input type="checkbox" />
+            <label for="">ALTHEORY </label><br />
+
+            <input type="checkbox" />
+            <label for="">Reebok </label><br />
+
+            <input type="checkbox" id="brandCheck3" onclick="brand3()" />
+            <label for="">Skybags </label><br />
+          </div>
+        </div>
+
+        <div class="caty-3">
+          <button id="sub2">-</button>
+          <button id="add2">+</button>
+          <h2>Discount</h2>
+        </div>
+
+        <div class="caty-4">
+          <button id="sub2">-</button>
+          <button id="add2">+</button>
+          <h2>Colors</h2>
+        </div>
+
+        <div class="caty-5">
+          <button id="sub2">-</button>
+          <button id="add2">+</button>
+          <h2>Occasion</h2>
+        </div>
+
+        <div class="caty-5">
+          <button id="sub2">-</button>
+          <button id="add2">+</button>
+          <h2>Size & Fit</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="products">
+      <div class="heading">
+        <div class="head">
+          <h3>MEN'S</h3>
+          <h1>Backpacks</h1>
+        </div>
+
+        <div class="summary">
+          <p>Backpacks for travel</p>
+          <p>
+            Pack some style with AJIO’s cool collection of backpacks for men .
+            Whether it’s to carry a laptop to work or for convenient luggage for
+            travelling, find the perfect design from backpack brands such as
+            Wildcraft and United Colors of Benetton ,
+          </p>
+        </div>
+      </div>
+
+      <div class="pattern">
+        <div class="listNav">
+          <h2>GRID</h2>
+          <a onclick="three()"
+            ><img src="https://www.linkpicture.com/q/grid_1.png" type="image"
+          /></a>
+          <a onclick=" changeGrid()"
+            ><img src="https://www.linkpicture.com/q/grid3.png" type="image"
+          /></a>
+        </div>
+
+        <div class="sort">
+          <h2>SORT BY</h2>
+
+          <select onchange="selectOpt()" id="opt">
+            <option value="relevance">Relevance</option>
+            <option value="prce-asc">Price (lowest first)</option>
+            <option value="prce-desc">Price (highest first)</option>
+            <option value="discount-desc">Discount</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="list"></div>
+    </div>
+
+<footer class="foot">
         <div class="container" class="container3-1" id="container3-1">
             <p><img style="width: 100%" src="https://www.linkpicture.com/q/x_7.png"></p>
         </div>
@@ -256,7 +344,11 @@
             </div>
         </div>
     </footer>
-    <script src="index.js"></script>
-</body>
+    
+    
+    </body>
 
 </html>
+
+<script src="index.js"></script>
+<script src="products.js"></script>
