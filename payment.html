@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Payment</title>
+    <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="payment.css" />
+</head>
+
+<body>
+    <div class="container2">
+        <div class="image1" id="image1">
+            <a href="index.html">
+                <img src="https://www.linkpicture.com/q/x_10.png" type="image" />
+            </a>
+            
+        </div>
+        <div>
+            <img src="https://www.linkpicture.com/q/x_13.png" type="image" style="margin-top: 20px;" />
+        </div>
+        
+    </div>
+
+
+    <div class="item-5">
+        <div class="grid">
+            <div id="left-side"></div>
+            <div id="right-side">
+                <h3 style="margin-left:50px;">Order Details</h3>
+                <section id="bagtotal">
+                    <span id="lebel">Bag total</span>
+                    <span class="price-value" id="price">Rs.1678</span>
+                </section>
+                <section id="bagDiscount">
+                    <span id="lebel">Bag discount</span>
+                    <span class="primary" id="discount">Rs.500</span>
+                </section>
+                <section id="delevery">
+                    <span id="lebel">Delivery</span>
+                    <span class="primary" id="free">free</span>
+                </section>
+                <section id="totalValue">
+                    <span id="lebel">Total Amount</span>
+                    <span class="price-value" id="total1">Rs.1178</span>
+                </section>
+                <!-- <button id="proceed">PROCEED TO SHIPPING</button> -->
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <h3>Select Payment Mode</h3>
+        <div class="parts">
+            <div class="modes">
+                <p class="line-one"><b>Credit/ Debit Card</b></p>
+                <h5>Net Banking</h5>
+                <h5>Wallet</h5>
+                <h5>UPI</h5>
+                <h5>Cash On Delivery</h5>
+            </div>
+            <div class="card">
+                <h4>Add New Card</h4>
+                <p>Card Number</p>
+                <input class="in" type="text" name="" value="" />
+                <p>Name On Card</p>
+                <input class="in" type="text" name="" value="" />
+
+                <div class="expiry">
+                    <div class="head">
+                        <p>Expiration Date</p>
+                        <p>CVV</p>
+                    </div>
+
+                    <div class="option">
+                        <select name="" id="month">
+                            <option value="">Month</option>
+                            <option value="January ">January</option>
+                            <option value="February ">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June ">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October ">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+
+                        <select name="" id="year">
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                        </select>
+
+                        <input type="password" id="cvv" />
+                    </div>
+                </div>
+
+                <button id="total">PAY</button>
+            </div>
+        </div>
+        <div class="container" id="box6">
+            <p><img src="https://www.linkpicture.com/q/x2_1.png" type="image"></p>
+        </div>
+
+
+
+        <!-- right side part -->
+</body>
+
+</html>
+
+<script>
+    var pay = document.getElementById("total");
+    pay.addEventListener("click", function () {
+        setTimeout(function () {
+            alert("Payment Successful");
+            window.open("thanks.html", "_self");
+        }, 3000);
+    });
+</script>
