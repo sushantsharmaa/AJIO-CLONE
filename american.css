@@ -1,11 +1,8 @@
 /* @import url(https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Ashopping_bag); */
 
-
-body{
-  font-family: 'Source Sans Pro', sans-serif;
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }
-
-
 
 .details {
   /* border: 2px solid red; */
@@ -49,43 +46,45 @@ body{
   width: 100%;
 }
 
-#left{
-    position: absolute;
-    top: 50vh;
-    left: 6%;
-    background: white;
-    border: none;
+#left {
+  position: absolute;
+  top: 50vh;
+  left: 6%;
+  background: white;
+  border: none;
 }
 
-#right{
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    background: white;
-    border: none;
+#right {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  background: white;
+  border: none;
 }
 
+/* Buttons */
 
- /* Buttons */
-
-#B1{
-background-color:peru ;
-color: white;
-border: none;
+#B1 {
+  background-color: peru;
+  color: white;
+  border: none;
+}
+#B1:hover {
+  cursor: pointer;
 }
 
-#B2{
+#B2 {
   border: 1px solid peru;
   color: peru;
   background-color: white;
 }
 
-.brand,.price{
+.brand,
+.price {
   color: peru;
 }
 
-
-.product{
+.product {
   color: lightslategray;
   text-align: left;
   width: 50%;
@@ -93,6 +92,6 @@ border: none;
   margin-top: 15px;
 }
 
-.foot{
-    margin-top: 130vh;
+.foot {
+  margin-top: 130vh;
 }

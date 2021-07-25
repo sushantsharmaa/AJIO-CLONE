@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Page</title>
+    <style>
+    .icon{
+        width: 30px;
+        height: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box{
+        float: left;
+        
+        font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+    
+    .heading{
+        font-size: 17px;
+    }
+    .para{
+        font-size: 14px;
+        color:#666;;
+    }
+    .div2{
+        width: 30%;
+        clear:left;
+        float: left;
+    }
+    .para2{
+     font-size: 13px;
+     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+    .para3{
+     font-size: 12px;
+     color: #b09975;
+     font-weight: 500;
+     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+    .para4{
+     font-size: 12px;
+     color: #6d6d6d;
+     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+    .span1{
+        font-weight: 600;
+    }
+    
+    .div3{
+        margin-top: 40px;
+        width: 210px;
+        height: 80px;
+        border-style: dashed;
+        border-color:#e0e0e0;
+        border-width: 1px;
+        border-radius: 5px;
+        line-height: 22px;
+        padding-left: 20px;
+        float: left;
+        margin-left: 180px;
+    }
+   #para5{
+       color: #39b54a;
+       
+   }
+   .span2{
+       color: #333;;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   }
+   .span3{
+      color: #333;
+     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+      font-weight: 600;
+   }
+
+   #para6{
+    
+    color: #176c93;
+    clear: left;
+    font-weight: 500;
+    
+   }
+   .div4{
+     width:280px;
+     height: 250px;
+     border-color:#e0e0e0;
+     border-width: 1px;
+     border-style: solid;
+     float: left;
+     background-color: #f8f9fa;
+     margin-top: 25px;
+
+   }
+   .div5{
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 1px;
+    
+   }
+   .container{
+       width: 60%;
+    margin-left: 10%;
+     float: left;
+     
+    
+   }
+   #size{
+       font-weight: 500;
+   }
+
+   #size2{
+       margin-left: 15px;
+   }
+   .div6{
+       width:250px;
+       height: 38px;
+       background-color: #fefbe3;
+       margin: auto;
+       margin-top: 13px;
+   }
+   .para7{
+     color: #176c93;  
+      font-weight: 500;
+       font-size: 12px;
+     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+     float: right;
+     margin-right: 10px;
+     }
+     button{
+         width: 280px;
+         height: 40px;
+         background-color: #d5a24a;
+         border: none;
+         color: white;
+         font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji ;
+     }
+     #icon2{
+         padding-top: 25px;
+     }
+     .container2{
+         width: 80%;
+         height: 80px;
+         margin: auto;
+     }
+     .image1{
+      float:left;
+      width:20%;
+      margin-top: 16px;
+
+     }
+     .para8{
+     font-size: 12px;
+     color: #636262;
+     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+     float: right;
+     }
+     .para9{
+         clear: right;
+         float:left;
+         margin-top: 8px;
+         margin-left: 20px;
+     }
+     #image1{
+         cursor: pointer;
+     }
+     #image2:hover{
+     cursor: pointer;
+     text-decoration: underline;
+     }
+
+
+
+
+     
+#right-side{
+position: absolute;
+    border: 1px solid #efeded;
+    width: 25%;
+    right: 3%;
+    top: 30vh;
+    background-color: rgb(247,247,247);
+    
+}
+
+#right-side button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: peru;
+    font-weight: bold;
+    color: white;
+}
+
+.coupon{
+    border: 1px solid #efeded;
+    width: 25%;
+    position: absolute;
+    right: 3%;
+    top: 70vh;  
+}
+
+.coupon input{
+    width: 60%;
+    height: 30px;
+}
+
+.coupon button{
+    width: 20%;
+    border: none;
+}
+ h3{
+    margin-left: 30px;
+    /* border: 2px solid red; */
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+}
+
+#bagtotal{
+    width: 2px solid green ;
+}
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.item{
+    border: 1px solid #efeded;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.item img{
+    width: 30%;
+}
+
+a{
+    /* border: 1px solid blue; */
+    width: 40%;
+}
+
+.foot{
+    margin-top: 60vh;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container2">
+        <div class="image1" id="image1">
+        <img src="https://www.linkpicture.com/q/x_10.png" type="image"/>
+        </div>
+        <div class="image1" >
+        <img src="https://www.linkpicture.com/q/x_11.png" type="image"/>
+        </div>
+        <div class="para8">
+            <div class="para9">Hi</div>
+            <div class="para9"id="image2">My Account</div>
+            <div class="para9"id="image2">Customer Care</div>
+        </div>
+    </div>
+
+    <div>
+        <div class="div5">
+        </div>
+    <div class="container">
+        <div>
+            <div class="box">
+            <img src="https://www.linkpicture.com/q/pin_4.png" class="icon">
+            </div>
+            <div class="box" id="size2">
+                <p class="heading">Delivery Address<br><span
+                     class="para">We will deliver your order to this address</span></p>
+            </div>
+        </div>
+         
+        <div>
+            <div  class="div2" >
+                <p class="para2"id="size">Mahesh Babu</p>
+                <p class="para3">Default</p>
+                <p class="para4">fno-01,01-10-111,lucky towers,<br>
+                    kakatiya,<br>
+                Hyderabad, telangana<br>
+                India - 506001<br>
+                Phone :<span class="span1">8111001234</span></p>
+            </div>
+
+            <div>
+             <div class="div3">
+                 <p class="para2" id="para5">Cash on delivery available<br>
+                 <span class="span2">Est Delivery </span><span class="span3">14 Aug</span></p>
+             </div>
+            </div>
+
+
+             <div>
+                <p class="para2"id="para6">Change Address</p>
+            </div>
+ 
+           <br>
+           <br>
+
+            <div>
+                <div class="div5">    
+                </div>
+            </div>
+            
+            <div>
+                <div class="box">
+                    <img src="https://www.linkpicture.com/q/x_8.png" type="image" id="icon2">
+                </div>
+                <div class="box" id="size2">
+                    <p class="heading">Expected Delivery<br><span 
+                        class="para">Estimated delivery dates for your order </span><br>
+                    <span class="span3"><br>14 Aug</span</p>
+                </div>
+            </div>
+            
+
+            
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div>
+    <div class="grid">
+        <div id="left-side"></div>
+        <div id="right-side">
+            <h3>Order Details</h3>
+            <section id="bagtotal">
+                <span id="lebel">Bag total</span>
+                <span class="price-value" id="price"style="color: peru;">Rs.1678</span>
+            </section>
+    
+            <section id="bagDiscount">
+                <span id="lebel">Bag discount</span>
+                <span class="primary" id="discount"style="color: peru;">Rs.500</span>
+            </section>
+    
+            <section id="delevery">
+                <span id="lebel">Delivery</span>
+                <span class="primary" style="color: peru;">free</span>
+            </section>
+            <section id="totalValue">
+                <span id="lebel">Total Amount</span>
+                <span class="price-value" id="total" style="color: peru;">Rs.1178</span>
+            </section>
+    
+            <button id="proceed">PROCEED TO SHIPPING</button>
+        </div>
+
+    </div>
+
+        <div>
+            <img src="https://www.linkpicture.com/q/x_9.png" type="image"/>
+        </div>
+    
+</body>
+</html>
