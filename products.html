@@ -132,9 +132,13 @@
             </div>
     </header>
 
-    <div class="filter">
+   
+    <div class="mid">
+
+<div class="mid-Left">
+         <div class="filter">
       <div id="top">
-        <h1>Refine By</h1>
+        <h2>Refine By</h2>
         <button id="up" onclick="contract()">
           <img
             src="https://www.linkpicture.com/q/up-arrow_1.png"
@@ -154,11 +158,11 @@
           <button id="sub1" onclick="addition1()">-</button>
           <button id="add1" onclick="subtract1()">+</button>
 
-          <h2>Price</h2>
+          <h3>Price</h3>
 
           <div class="check-1">
-            <input type="checkbox" onclick="checkboxNone()" />
-            <label for="">Below Rs.500 </label><br />
+            <!-- <input type="checkbox" onclick="checkboxNone()" />
+            <label for="">Below Rs.500 </label><br /> -->
 
             <input type="checkbox" id="myCheck" onclick="checkbox()" />
             <label for="">Rs.500-1000 </label><br />
@@ -171,11 +175,13 @@
           </div>
         </div>
 
+        <hr>
+
         <div class="caty-2">
           <button id="sub2" onclick="addition2()">-</button>
           <button id="add2" onclick="subtract2()">+</button>
 
-          <h2>Brand</h2>
+          <h3>Brand</h3>
 
           <div class="check-2">
             <input type="checkbox" id="brandCheck10" onclick="brand10()" />
@@ -197,32 +203,43 @@
             <label for="">Skybags </label><br />
           </div>
         </div>
+        <hr>
 
         <div class="caty-3">
           <button id="sub2">-</button>
           <button id="add2">+</button>
-          <h2>Discount</h2>
+          <h3>Discount</h3>
         </div>
+
+<hr>
 
         <div class="caty-4">
           <button id="sub2">-</button>
           <button id="add2">+</button>
-          <h2>Colors</h2>
+          <h3>Colors</h3>
         </div>
+
+        <hr>
 
         <div class="caty-5">
           <button id="sub2">-</button>
           <button id="add2">+</button>
-          <h2>Occasion</h2>
+          <h3>Occasion</h3>
         </div>
 
-        <div class="caty-5">
+        <hr>
+
+        <div class="caty-6">
           <button id="sub2">-</button>
           <button id="add2">+</button>
-          <h2>Size & Fit</h2>
+          <h3>Size & Fit</h3>
         </div>
+
+        <hr>
       </div>
     </div>
+</div>
+
 
     <div id="products">
       <div class="heading">
@@ -244,7 +261,7 @@
 
       <div class="pattern">
         <div class="listNav">
-          <h2>GRID</h2>
+          <h3>GRID</h3>
           <a onclick="three()"
             ><img src="https://www.linkpicture.com/q/grid_1.png" type="image"
           /></a>
@@ -254,7 +271,7 @@
         </div>
 
         <div class="sort">
-          <h2>SORT BY</h2>
+          <h3>SORT BY</h3>
 
           <select onchange="selectOpt()" id="opt">
             <option value="relevance">Relevance</option>
@@ -267,6 +284,8 @@
 
       <div id="list"></div>
     </div>
+    </div>
+
 
 <footer class="foot">
         <div class="container" class="container3-1" id="container3-1">

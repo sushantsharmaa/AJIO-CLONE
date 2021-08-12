@@ -113,6 +113,8 @@ body{
     padding-top: 5px;
 }
 
+
+
 /* Sign In */
 
 .login-modal {
@@ -137,6 +139,7 @@ body{
  
 .close:hover {
     cursor: pointer;
+    font-weight: bold;
 }
 
 .title {

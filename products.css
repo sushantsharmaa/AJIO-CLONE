@@ -2,10 +2,10 @@
 
 
 #products {
-  width: 76%;
+  width: 70%;
   /* border: 2px solid orangered; */
   position: absolute;
-  right: 2%;
+  right: 5%;
   top: 22%;
 }
 
@@ -55,6 +55,7 @@
   line-height: 0;
 }
 
+
 .listNav {
   /* border: 2px solid red; */
   display: flex;
@@ -63,6 +64,34 @@
   width: 20%;
   margin: auto;
   height: 40px;
+  /* margin-bottom: 10px; */
+}
+
+.pattern{
+  border-bottom: 1px solid  #c2c2c2;
+  border-top: 1px solid  #c2c2c2;
+  background-color: #f9f9f9;
+  height: 10vh;
+  display: flex;
+align-items: center;
+margin-bottom: 20px;
+width: 100%;
+margin: auto;
+margin-bottom: 20px;
+}
+
+.mid-Left{
+  /* border: 2px solid blue; */
+  width: 18%;
+  position: absolute;
+   top: 22%;
+   left: 5%;
+}
+
+#top{
+  /* position: relative; */
+  /* border: 1px solid green; */
+  width: 100%;
 }
 
 .change {
@@ -90,30 +119,40 @@
 /* Filter section */
 
 .filter {
-  /* border: 2px solid blue; */
-  width: 24%;
-  position: relative;
-  top: 135px;
+  /* border: 2px solid red; */
+  width: 100%;
+  /* position: relative; */
+  /* top: 135px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 #top h1{
   margin-top: 0;
 }
 
-#up,
+#up {
+  border: none;
+  background-color: white;
+  position: absolute;
+  top: 25px;
+  right: 15%; 
+}
+
 #down {
   border: none;
   background-color: white;
   position: absolute;
-  top: 4px;
+  top: 25px;
   right: 15%; 
 }
 
 
 .caty-1 {
-  width: 50%;
+  width: 60%;
   position: relative;
-  border-bottom: 2px solid whitesmoke;
+  /* border-bottom: 2px solid whitesmoke; */
 
 }
 .caty-1 button {
@@ -123,7 +162,7 @@
   width: 20px;
   aspect-ratio: 1/1;
 }
-.caty-1 h2 {
+.caty-1 h3 {
   /* border: 2px solid blue; */
   text-align: center;
 }
@@ -135,9 +174,9 @@
 
 
 .caty-2 {
-  width: 50%;
+  width: 60%;
   position: relative;
-  border-bottom: 2px solid whitesmoke;
+  /* border-bottom: 2px solid whitesmoke; */
 
 }
 .caty-2 button {
@@ -147,16 +186,16 @@
   width: 20px;
   aspect-ratio: 1/1;
 }
-.caty-2 h2 {
+.caty-2 h3 {
   /* border: 1px solid blue; */
   text-align: center;
 }
 
 
 .caty-3 {
-  width: 50%;
+  width: 60%;
   position: relative;
-  border-bottom: 2px solid whitesmoke;
+  /* border-bottom: 2px solid whitesmoke; */
 
 }
 .caty-3 button {
@@ -166,15 +205,15 @@
   width: 20px;
   aspect-ratio: 1/1;
 }
-.caty-3 h2 {
+.caty-3 h3 {
   /* border: 1px solid blue; */
   text-align: center;
 }
 
 .caty-4 {
-  width: 50%;
+  width: 60%;
   position: relative;
-  border-bottom: 2px solid whitesmoke;
+  /* border-bottom: 2px solid whitesmoke; */
 
 }
 .caty-4 button {
@@ -184,15 +223,15 @@
   width: 20px;
   aspect-ratio: 1/1;
 }
-.caty-4 h2 {
+.caty-4 h3 {
   /* border: 1px solid blue; */
   text-align: center;
 }
 
 .caty-5 {
-  width: 50%;
+  width: 60%;
   position: relative;
-    border-bottom: 2px solid whitesmoke;
+    /* border-bottom: 2px solid whitesmoke; */
 
 }
 .caty-5 button {
@@ -202,15 +241,15 @@
   width: 20px;
   aspect-ratio: 1/1;
 }
-.caty-5 h2 {
+.caty-5 h3 {
   /* border: 1px solid blue; */
   text-align: center;
 }
 
 .caty-6 {
-  width: 50%;
+  width: 60%;
   position: relative;
-   border-bottom: 2px solid whitesmoke;
+   /* border-bottom: 2px solid whitesmoke; */
 
 }
 .caty-6 button {
@@ -220,9 +259,9 @@
   width: 20px;
   aspect-ratio: 1/1;
 }
-.caty-6 h2 {
+.caty-6 h3 {
   /* border: 1px solid blue; */
-  text-align: center;
+  text-align:center;
 }
 
 button{
@@ -234,4 +273,14 @@ button{
 
 .foot{
   margin-top: 400vh;
+}
+
+
+ hr{
+   border-top: 2px solid whitesmoke;
+}
+
+.all input,label{
+  position: relative;
+  left: 30px;
 }
