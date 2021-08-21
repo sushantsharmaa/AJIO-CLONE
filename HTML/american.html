@@ -8,14 +8,16 @@
     <link rel="icon" href="favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <link rel="stylesheet" href="../CSS/american.css">
     <title>Ajio.com | Shop Online the Latest Fashion in apparels brands in India | Reliance Ajio.com</title>
 </head>
 
 <body>
     <header class="main-header shadow">
         <div class="logo">
-            <a href=""><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg"></a>
+            <a href="index.html"><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg"></a>
         </div>
         <div class="menu-container">
             <div class="guest-header">
@@ -33,7 +35,7 @@
                     </div>
                     <div class="login-content form">
                         <p>Enter your Name</p>
-                        <input type="text" class="name" id="username">
+                        <input type="text" class="name">
                         <br>
                         <button class="submit-btn">CONTINUE</button>
                     </div>
@@ -123,66 +125,59 @@
                 <span class="material-icons icon hanger">
                     checkroom
                 </span>
-                 <a class="cart-icon" href=""><span class="material-icons icon bag">
+                 <a class="cart-icon" href="cart.html"><span class="material-icons icon bag">
                     shopping_bag
                 </span>
                 </a>
             </div>
     </header>
-    <container class="">
-        <div id="main">
-            <div id="top_img">
-                <a href="https://www.linkpicture.com/view.php?img=LPic60f79b0f452e61226639056">
-                    <img src="https://www.linkpicture.com/q/21072021-d-unisex-topcarousel-p1-40to70-2kbrands.jpg"
-                        type="image"></a>
-            </div>
-            <div id="mobi">
-                <a href="https://www.linkpicture.com/view.php?img=LPic60f7a510efaaf384991559">
-                    <img src="https://www.linkpicture.com/q/07072021-D-unisex-alliances-mobikwik.webp" type="image"></a>
-            </div>
 
-            <div id="slider_1"></div>
+    <div id="slider"></div>
 
-            <div id="thirdRow">
+    <button id="left">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/chevron-left.png" />
+    </button>
+    <button id="right">
+      <img
+        src="https://img.icons8.com/ios-glyphs/30/000000/chevron-right.png"
+      />
+    </button>
+    <div class="details">
+      <h1 class="brand">AMERICAN TOURISTER</h1>
+      <h2>Printed Backpack with Attached Raincover</h2>
+      <h2>Rs. 1,678</h2>
+      <h3 class="price">
+        <span style="text-decoration: line-through">Rs. 3,050</span> (45% off)
+      </h3>
+      <h4>Price inclusive of all taxes</h4>
 
-                <div id="experience">
-                    <img src="https://www.linkpicture.com/q/01072021-d-unisex-experienceajio-sectionheader-1.jpg"
-                        type="image"></a>
-                </div>
-                <div class="gridTiles">
-                    <a href="#"><img
-                            src="https://www.linkpicture.com/q/01072021-d-unisex-experienceajio-signup-upto500_2.webp"
-                            type="image" id="one"></a>
-                    <a href="#"> <img
-                            src="https://www.linkpicture.com/q/15072021-d-unisex-experienceajio-firstpurchase-extra15-extra25-extra5onapp_1.webp"
-                            type="image"></a>
-                    <a href=" #"><img src="https://www.linkpicture.com/q/01072021-d-unisex-referral-upto1500.webp"
-                            type="image"></a>
-                    <a href="#"><img src="https://www.linkpicture.com/q/01072021-d-unisex-relianceone-strip.jpg"
-                            type="image"></a>
-                </div>
-            </div>
+      <button id="B1" onclick="goToCart()">
+       
 
-            <div id="slider_2"></div>
+        ADD TO BAG
+      </button>
+      <h5>HANDPICKED STYLES | ASSURED QUALITY</h5>
+      <button id="B2">
+        <img src="https://img.icons8.com/ios/50/000000/hanger.png" />SAVE TO
+        CLOSET
+      </button>
+      <h3 class="product">Product Details</h3>
 
-            <div id="crazy">
-                <img src="https://www.linkpicture.com/q/crazy.jpg" type="image">
-            </div>
+      <div class="list">
+        <ul>
+          <li>Wipe with clean, dry cloth</li>
+          <li>Polyester</li>
+          <li>Dimensions: 48 cm x 32 cm x 22 cm</li>
+          <li>Product Code: 460556739001</li>
+        </ul>
+      </div>
+    </div>
 
-            <div class="slide">
-                <div id="slider_3"></div>
-                <button id="left" onclick="shiftLeft()"><img src="https://www.linkpicture.com/q/back_2.png"
-                        type="image"></button>
-                <button id="right" onclick="shiftRight()"><img src="https://www.linkpicture.com/q/right-arrow.png"
-                        type="image"></button>
-            </div>
 
-        </div>
-    </container>
-    <footer>
-        <div class="container" class="container3-1" id="container3-1">
+    <footer class="foot">
+        <!-- <div class="container" class="container3-1" id="container3-1">
             <p><img style="width: 100%" src="https://www.linkpicture.com/q/x_7.png"></p>
-        </div>
+        </div> -->
         <div class="container">
             <p><img src="https://www.linkpicture.com/q/x1_1.png" type="image"></p>
         </div>
@@ -255,7 +250,8 @@
             </div>
         </div>
     </footer>
-    <script src="index.js"></script>
-</body>
-
+  </body>
 </html>
+
+<script src="../JS/american.js" ></script>
+<script src="../JS/cart.js"></script>

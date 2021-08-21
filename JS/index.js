@@ -26,11 +26,11 @@ submitBtn.addEventListener("click", function (event) {
       password: "raj123",
     },
     {
-      username: "rahaman",
+      username: "Himanshu",
       password: "rahul123",
     },
     {
-      username: "raj",
+      username: "Mahesh Babu",
       password: "raj123",
     },
   ];
